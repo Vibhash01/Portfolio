@@ -391,9 +391,9 @@ section .title::after{
     transition: all 0.3s ease;
     aspect-ratio: auto 1 / 1;
 }
-.teams .carousel .card:hover{
+/* .teams .carousel .card:hover{
     background: rgb(46, 42, 42);
-}
+} */
 .teams .carousel .card .box {
     display: flex;
     flex-direction: column;
@@ -402,9 +402,9 @@ section .title::after{
     transition: all 0.3s ease;
     aspect-ratio: auto 1 / 1; /* This line ensures the box maintains aspect ratio */
 }
-.teams .carousel .card:hover .box{
+/* .teams .carousel .card:hover .box{
     transform: scale(1.05);
-}
+} */
 .teams .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
